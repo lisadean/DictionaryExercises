@@ -52,7 +52,7 @@ def find_top_words(histogram, num):
 
 def print_dictionary(histogram):
     for key, value in histogram.items():
-        print("'%s': %d" % (key, value))
+        print("%s: %d" % (key, value))
 
 
 ################################################################################
